@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="6" time="0.017" timestamp="2025-02-08T08:44:24.469395-08:00" hostname="Hasans-Air.nv.charter.com"><testcase classname="test_1" name="test_1" time="0.000" /><testcase classname="test_1" name="test_2" time="0.000" /><testcase classname="test_1" name="test_3" time="0.000"><failure message="AssertionError: assert 'jenkin' in 'Jenkins is a CI/CD server'">def test_3():
+        name="jenkin"
+        title="Jenkins is a CI/CD server"
+    
+&gt;       assert name in title
+E       AssertionError: assert 'jenkin' in 'Jenkins is a CI/CD server'
+
+test_1.py:21: AssertionError</failure></testcase><testcase classname="test_samples" name="test_division" time="0.000"><failure message="assert (2 / 3) == 0.6666">def test_division():
+&gt;       assert 2/3 == 0.6666
+E       assert (2 / 3) == 0.6666
+
+test_samples.py:11: AssertionError</failure></testcase><testcase classname="test_samples" name="test_addition" time="0.000"><failure message="assert (2 + 5) == 1">def test_addition():
+&gt;       assert 2+5==1
+E       assert (2 + 5) == 1
+
+test_samples.py:17: AssertionError</failure></testcase><testcase classname="test_samples" name="test_addition_errors" time="0.000"><failure message="Failed: DID NOT RAISE &lt;class 'TypeError'&gt;">def test_addition_errors():
+&gt;       with pytest.raises(TypeError):
+E       Failed: DID NOT RAISE &lt;class 'TypeError'&gt;
+
+test_samples.py:21: Failed</failure></testcase></testsuite></testsuites>
